@@ -1,0 +1,28 @@
+{
+  "name": "static-site-template-riot-bourbon",
+  "version": "0.0.0",
+  "authors": [
+    "Collin Green <collin@collingreen.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.6",
+    "normalize-css": "normalize.css#~3.0.3",
+    "bitters": "~1.1.0",
+    "neat": "~1.7.2",
+    "jquery": "~2.1.4",
+    "riot": "~2.3.12"
+  }
+}

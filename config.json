@@ -1,0 +1,14 @@
+{
+  "locals": {
+    "name": "New Project",
+    "url": "",
+    "description": "Everything in the locals object is available in templates",
+    "keywords": "wintersmith, riotjs, bourbon, bitters, neat, static site"
+  },
+  "plugins": [
+    "wintersmith-sass",
+    "wintersmith-nunjucks",
+    "wintersmith-riot",
+    "wintersmith-livereload"
+  ]
+}

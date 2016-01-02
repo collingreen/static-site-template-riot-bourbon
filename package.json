@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "bower install"
+  },
+  "dependencies": {
+    "wintersmith-livereload": "*",
+    "wintersmith-nunjucks": "*",
+    "wintersmith-riot": "git+https://github.com/collingreen/wintersmith-riot",
+    "wintersmith-sass": "^0.3.0"
+  },
+  "repository": "https://github.com/collingreen/static-site-template-riot-bourbon"
+}
