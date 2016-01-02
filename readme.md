@@ -19,19 +19,22 @@ with a working setup that includes:
 
 ## Requirements
 
-You must have npm and wintersmith installed before getting started with
-this project. Everything else will be installed for you.
+You must have node and npm installed before getting started with this project.
+Everything else will be installed for you.
 
 
-## Create New Project
+## Create Project
 
-You can use wintersmith to generate a brand new project using this as
-the template with the following command:
+If you already have wintersmith installed globally you can use wintersmith to
+generate a brand new project using this as the template with the following
+command:
 
 `wintersmith new -T path/to/this/project project_name`
 
-Now start editing your files (start with config.json) to customize your
-project and start creating your new content.
+Otherwise clone the project from git, nuke the .git folder, and start editing.
+
+`git clone git@github.com:collingreen/static-site-template-riot-bourbon your-project-name`
+`rm -rf your-project-name/.git`
 
 
 ## Install Requirements
@@ -48,22 +51,25 @@ bower_components into the contents folder because of bloat, sanity, and safety).
 
 Start the preview server using:
 
-`wintersmith preview`
+`npm start`
 
 You can now access your site at localhost:8080. The default base template
 includes a livereload script so your pages will reload as you save changes
 in your source code, giving you instant visual feedback.
 
+Note - this is the same as running `wintersmith preview`.
+
 
 ## Build
 
-When you want to create a deployable build of your site, simply call
+When you want to create a build of your site, simply call
 
-`wintersmith build`
+`npm run-script build`
 
 This will generate a build folder in the top level of the project that
-includes your entire site, ready to deploy on any static hosting system
-(github pages, S3, etc).
+includes your entire site.
+
+Note - this is the same as running `wintersmith build`.
 
 
 ## Tools
@@ -87,7 +93,6 @@ includes your entire site, ready to deploy on any static hosting system
 
 
 ## Usage Suggestions
-
 
 ### Use Wintersmith Plugins
 

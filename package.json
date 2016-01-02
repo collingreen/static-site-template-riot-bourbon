@@ -1,8 +1,12 @@
 {
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "start": "node scripts/run_preview_server.js",
+
+    "build": "node scripts/build.js"
   },
   "dependencies": {
+    "wintersmith": "^2.2.4",
     "wintersmith-livereload": "*",
     "wintersmith-nunjucks": "*",
     "wintersmith-riot": "git+https://github.com/collingreen/wintersmith-riot",
